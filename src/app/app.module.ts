@@ -10,6 +10,8 @@ import { ErrorComponent } from './assets/error/error.component';
 import { CreateComponent } from './modulos/aeropuertos/create/create.component';
 import { EditComponent } from './modulos/aeropuertos/edit/edit.component';
 import { GetComponent } from './modulos/aeropuertos/get/get.component';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -24,7 +26,8 @@ import { GetComponent } from './modulos/aeropuertos/get/get.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
