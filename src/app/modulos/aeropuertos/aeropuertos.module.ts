@@ -1,10 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
-import { AdminRoutingModule } from './admin-routing.module';
-import { CreateComponent } from './usuarios/create/create.component';
-import { EditComponent } from './usuarios/edit/edit.component';
-import { GetComponent } from './usuarios/get/get.component';
+import { CreateComponent } from './create/create.component';
+import { EditComponent } from './edit/edit.component';
+import { GetComponent } from './get/get.component';
+import { AeropuertosRoutingModule } from './aeropuertos-routing.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
@@ -16,9 +15,10 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
   ],
   imports: [
     CommonModule,
-    AdminRoutingModule,
+    AeropuertosRoutingModule,
     FormsModule,
     ReactiveFormsModule
+
   ]
 })
-export class AdminModule { }
+export class AeropuertosModule { }

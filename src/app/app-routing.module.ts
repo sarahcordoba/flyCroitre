@@ -15,7 +15,7 @@ const routes: Routes = [
     loadChildren: () => import('./modulos/admin/admin.module').then(m => m.AdminModule)
   },{
     path: 'aeropuertos',
-    loadChildren: () => import('./modulos/aeropuertos/aeropueros.module').then(m => m.AeropuerosModule)
+    loadChildren: () => import('./modulos/aeropuertos/aeropuertos.module').then(m => m.AeropuertosModule)
   },{
     path: 'rutas',
     loadChildren: () => import('./modulos/rutas/rutas.module').then(m => m.RutasModule)

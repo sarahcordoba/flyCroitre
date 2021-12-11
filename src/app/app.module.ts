@@ -7,9 +7,6 @@ import { NavbarComponent } from './assets/navbar/navbar.component';
 import { FooterComponent } from './assets/footer/footer.component';
 import { IndexComponent } from './assets/index/index.component';
 import { ErrorComponent } from './assets/error/error.component';
-import { CreateComponent } from './modulos/aeropuertos/create/create.component';
-import { EditComponent } from './modulos/aeropuertos/edit/edit.component';
-import { GetComponent } from './modulos/aeropuertos/get/get.component';
 import { HttpClientModule } from '@angular/common/http';
 
 
@@ -19,10 +16,7 @@ import { HttpClientModule } from '@angular/common/http';
     NavbarComponent,
     FooterComponent,
     IndexComponent,
-    ErrorComponent,
-    CreateComponent,
-    EditComponent,
-    GetComponent
+    ErrorComponent
   ],
   imports: [
     BrowserModule,
